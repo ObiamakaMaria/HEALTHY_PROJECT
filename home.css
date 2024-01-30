@@ -1,0 +1,56 @@
+/* style.css for the home.html page*/
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #3498db;
+  padding: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  position: relative;
+}
+
+nav .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+nav a:hover .dropdown-content {
+  display: block;
+}
+
+section {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  margin: 20px;
+}
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
