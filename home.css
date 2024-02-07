@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f0f0f0;
+  background-image: ('home1.jpg');
 }
 
 header {
@@ -42,15 +43,141 @@ nav a:hover .dropdown-content {
 
 section {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: right;
   padding: 20px;
   margin: 20px;
 }
 button {
-  background-color: #4caf50;
+  background-color:red;
   color: white;
   padding: 10px 15px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
+.gsc-iw-id1.gsc-input-box {
+  max-width: 2%;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.gcse-search {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  left: 0;
+  top: 0;
+
+}
+.gsc-control-cse {
+  background-color: #387deb !important;
+  border: 0 !important;
+  padding: 2px 2px 2px 2px !important;
+  margin: 0px;
+  border-radius: 2px;
+  overflow: hidden;
+}
+form.gsc-search-box,
+table.gsc-search-box {
+  margin-bottom: 0 !important;
+  max-width: 200px;
+}
+.gcse-search-box {
+  border: 0 !important;
+  background: #387deb !important;
+}
+.gcse-search-box-tools .gcse-search-box .gcse-input {
+  padding-right: 0 !important;
+}
+#gs_tti50 {
+  padding: 6px 0 !important;
+}
+#gsc-i-id1 {
+  color: #000 !important;
+  text-indent: 0 !important;
+  font-size: 14px !important;
+  line-height: 1 !important;
+  background: none !important;
+}
+#gsc-i-id1::-webkit-input-placeholder {
+  color: #000 !important;
+}
+#gsc-i-id1::-as-input-placeholder {
+  color: #fff;
+}
+#gsc-i-id1::-moz-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+#gsc-i-id1::-moz-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+.gsib_b {
+  display: none !important;
+}
+.gsc-search-button -v2 {
+  padding: 7.5px !important;
+  margin-left: !important;
+  outline: none !important;
+  border: !important;
+  cursor: pointer;
+}
+.gsc-search-button-v2,gsc-search-button-v2: hover {
+  cursor: pointer;
+}
+.gsc-search-button-v2,gsc-search-button-v2: hover {
+  background-color: transparent !important;
+  background-image: none !important;
+}
+.gsc-search-button -v2:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+}
+.gsc-search-button -v2:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+/* styling the Google Search Bar */
+.gsc-input-box {
+  max-width: 200px; /* Set the maximum width as needed */
+  width: auto;
+}
+.gsc-control-wrapper-cse {
+  width: 0%;
+  max-width: 200px;
+}
+.gsc-control-cse.gsc-control-cse-en {
+  max width: 200px;
+}
+.gsc-control-cse {
+  max-width: 200px; /* Set the maximum width as needed */
+  width: auto; /* Allow the width to be flexible based on content */
+  background-color: #387deb !important;
+  border: 0 !important;
+  padding: 8px 10px !important; /* Adjust padding as needed */
+  margin: 0;
+  border-radius: 4px;
+  overflow: hidden;
+  display:flex;
+  margin-left: auto;
+}
+
+/* style for the subscribe page*/
+.subii {
+  padding: 50px;
+  text-align: center;
+  background-image: url('subscribe.jpg');
+  
+}
+
+.sub-butn {
+  background-color: blue;
+
+}
+
+
