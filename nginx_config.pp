@@ -13,7 +13,7 @@ server {
 
 
     location /static/ {
-        alias /home/vagrant/HEALTHY_PROJECT/web_flask/static/;
+        alias /home/ubuntu/HEALTHY_PROJECT/web_flask/static/;
     }
 
     location / {
@@ -22,8 +22,8 @@ server {
         proxy_redirect off;
     }
 
-    }
-}
+ }
+
 EOF
 }
 
