@@ -10,7 +10,9 @@ body {
 
 header {
   background-color: #3498db;
-  padding: 15px;
+  padding: 10px;
+  height: 170px;
+  margin: 0;
   color: #fff;
   text-align: center;
 }
@@ -46,6 +48,7 @@ section {
   justify-content: right;
   padding: 20px;
   margin: 20px;
+  
 }
 button {
   background-color:red;
@@ -144,7 +147,7 @@ table.gsc-search-box {
 }
 /* styling the Google Search Bar */
 .gsc-input-box {
-  max-width: 200px; /* Set the maximum width as needed */
+  max-width: 200px; 
   width: auto;
 }
 .gsc-control-wrapper-cse {
@@ -152,11 +155,11 @@ table.gsc-search-box {
   max-width: 200px;
 }
 .gsc-control-cse.gsc-control-cse-en {
-  max width: 200px;
+  max width:200px;
 }
 .gsc-control-cse {
-  max-width: 200px; /* Set the maximum width as needed */
-  width: auto; /* Allow the width to be flexible based on content */
+  max-width: 200px; 
+  width: auto; /* Allowing the width to be flexible based on content */
   background-color: #387deb !important;
   border: 0 !important;
   padding: 8px 10px !important; /* Adjust padding as needed */
@@ -179,5 +182,3 @@ table.gsc-search-box {
   background-color: blue;
 
 }
-
-
