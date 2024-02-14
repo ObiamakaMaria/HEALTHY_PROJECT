@@ -17,7 +17,7 @@ class User(BaseModel, Base):
 
     username = Column(String(20), unique=True, nullable=False)
     email = Column(String(120), unique=True, nullable=False)
-    password_hash = Column(String(60), nullable=False)
+    password_hash = Column(String(255), nullable=False)
 
     articles = relationship('Article', backref='users', cascade="all, delete, delete-orphan")
 

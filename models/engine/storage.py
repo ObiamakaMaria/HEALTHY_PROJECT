@@ -32,7 +32,10 @@ class DBStorage:
                                              DB_PASSWORD,
                                              DB_HOST,
                                              DB_NAME))
-        
+        Base.metadata.create_all(self.__engine)
+        Session = sessionmaker(bind=self.__engine)
+        self.__session = scoped_session(Session)   
+
     def all(self, cls=None):
         """query on the current database session"""
         new_dict = {}
@@ -42,7 +45,8 @@ class DBStorage:
                 for obj in objs:
                     key = obj.__class__.__name__ + '.' + obj.id
                     new_dict[key] = obj
-        return (new_dict)
+        return (new_dict)  
+
     def new(self, obj):
         """add the object to the current database session"""
         self.__session.add(obj)

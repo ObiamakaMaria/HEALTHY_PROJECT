@@ -12,9 +12,6 @@ server {
     server_name localhost;
 
 
-    location /static/ {
-        alias /home/ubuntu/HEALTHY_PROJECT/web_flask/static/;
-    }
 
     location / {
         proxy_pass http://127.0.0.1:5000;
