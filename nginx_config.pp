@@ -8,18 +8,14 @@ file { '/etc/nginx/sites-available/my_flask_app.conf':
   ensure  => present,
   content => @(EOF)
 server {
-    listen 80;
-    server_name localhost;
-
-
+    listen 80;  # Nginx default port
+    server_name 54.89.116.235;  # Your public IP address
 
     location / {
-        proxy_pass http://127.0.0.1:5000;
+        proxy_pass http://127.0.0.1:5000;  # Proxy to port 5000
         include /etc/nginx/proxy_params;
         proxy_redirect off;
-
-
- }
+    }
 }
 EOF
 }
