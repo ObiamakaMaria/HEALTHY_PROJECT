@@ -11,7 +11,7 @@ login_bp = Blueprint('login', __name__)
 @login_bp.route('/login', endpoint='login', methods=['POST', 'GET'])
 def login():
     if request.method == 'GET':
-        return send_from_directory('static', 'login.html')
+        return send_from_directory('servee_app', 'login.html')
     # Get the username and password from the POST request
     username = request.json.get('username')
     password = request.json.get('password')
@@ -38,5 +38,5 @@ def login():
             'message' : "Password or username incorrect"
             }
 
-    return jsonify(response)
+    return jsonify(response), 400
 

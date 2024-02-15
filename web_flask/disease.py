@@ -17,4 +17,4 @@ def disease():
 
     #the get method first
     if request.method == 'GET':
-        return send_from_directory('static', 'disease.html')
+        return send_from_directory('servee_app', 'disease.html')

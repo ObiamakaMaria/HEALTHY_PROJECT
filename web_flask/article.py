@@ -13,7 +13,7 @@ article_bp = Blueprint('article', __name__)
 @article_bp.route('/article',  methods=['GET'])
 @require_login
 def show_article_form():
-    return send_from_directory('static', 'article_form.html')
+    return send_from_directory('servee_app', 'article_form.html')
 
 # Route to handle the POST request to save the article
 @article_bp.route('/article',  methods=['POST'])

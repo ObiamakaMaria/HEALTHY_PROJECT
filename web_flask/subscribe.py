@@ -20,4 +20,4 @@ def subscribe():
 
     #the get method first, then elif for the post method
     if request.method == 'GET':
-        return send_from_directory('static', 'subscribe.html')
+        return send_from_directory('servee_app', 'subscribe.html'), 200

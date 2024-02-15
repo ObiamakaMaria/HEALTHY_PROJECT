@@ -19,7 +19,7 @@ def register():
     
     #the get method first, then elif for the post method
     if request.method == 'GET':
-        return send_from_directory('static', 'signup.html')
+        return send_from_directory('servee_app', 'signup.html')
     elif request.method == 'POST':
         #get the user input from he request module
         username = request.json.get('username')

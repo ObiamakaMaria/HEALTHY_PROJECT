@@ -1,27 +1,32 @@
-// Assuming you have a form with id="loginForm" and input fields with id="username" and id="password"
-document.getElementById("loginForm").addEventListener("submit", function(event) {
-    event.preventDefault(); // Prevent the form from submitting normally
+document.getElementById('loginForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    var username = document.getElementById('username').value;
+    var password = document.getElementById('password').value;
     
-    // Get the input values
-    var username = document.getElementById("username").value;
-    var password = document.getElementById("password").value;
-    
-    // Create a JSON object with the username and password
-    var data = {
-        username: username,
-        password: password
-    };
-    
-    // Make an AJAX POST request
-    var xhr = new XMLHttpRequest();
-    xhr.open("POST", "/login", true);
-    xhr.setRequestHeader("Content-Type", "application/json");
-    xhr.onreadystatechange = function () {
-        if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
-            // Success, do something with the response
-            console.log(xhr.responseText);
+    // Send the login data to the Flask route using Fetch API
+    fetch('/login', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            username: username,
+            password: password
+        })
+    })
+    .then(response => {
+        if (response.ok) {
+            // Redirect to another page or perform other actions upon successful login
+            window.location.href = '/subscribe';
+        } else {
+            // Handle error responses
+            return response.json().then(data => {
+                alert(data.message); // Display error message
+            });
         }
-    };
-    xhr.send(JSON.stringify(data));
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
 });
 

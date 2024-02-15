@@ -6,7 +6,6 @@ from flask import Flask, redirect, url_for, session, request
 from web_flask.main_app import main_bp 
 from web_flask.login import login_bp
 from web_flask.register import register_bp
-from web_flask.temp import temp_bp
 from web_flask.logout import logout_bp
 from web_flask.article import article_bp
 from web_flask.disease import disease_bp
@@ -30,7 +29,6 @@ def create_app():
     app.register_blueprint(login_bp)
     app.register_blueprint(register_bp)
     app.register_blueprint(logout_bp)
-    app.register_blueprint(temp_bp)
     app.register_blueprint(article_bp)
     app.register_blueprint(disease_bp)
     app.register_blueprint(subscribe_bp)
