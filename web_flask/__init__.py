@@ -10,6 +10,7 @@ from web_flask.logout import logout_bp
 from web_flask.article import article_bp
 from web_flask.disease import disease_bp
 from web_flask.subscribe import subscribe_bp
+from web_flask.search import search_bp
 import secrets
 
 
@@ -32,6 +33,7 @@ def create_app():
     app.register_blueprint(article_bp)
     app.register_blueprint(disease_bp)
     app.register_blueprint(subscribe_bp)
+    app.register_blueprint(search_bp)
 
     return app
 

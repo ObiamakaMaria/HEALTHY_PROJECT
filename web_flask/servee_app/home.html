@@ -7,16 +7,73 @@
   <title>Your Website</title>
 </head>
 <body>
+ <div class="container-2">
+  <div class="column-all">
+    <h3>Conditions</h3>
+    <a href="https://www.mayoclinic.org/diseases-conditions/diabetes/symptoms-causes/syc-20371444"
+      target="_blank">Diabetes</a> 
+      <a href="https://emedicine.medscape.com/article/241381-overview?form=fpf"
+      target="_blank">Hypertension</a> 
+      <a href="https://www.mayoclinic.org/diseases-conditions/stroke/symptoms-causes/syc-20350113"
+      target="_blank">Stroke</a>
+      <a href="https://www.healthline.com/health/obesity#risk-factors"
+      target="_blank">Obesity</a> 
+      <a href="https://www.kidney.org/atoz/content/about-chronic-kidney-disease"
+      target="_blank">Chronic Kidney Disease</a>
+  </div>
+  <div class="column-all">
+    <h3>Fitness</h3>
+    <a href="https://www.hopkinsmedicine.org/health/wellness-and-prevention/3-kinds-of-exercise-that-boost-heart-health#:~:text=Aerobic%20Exercise,-What%20it%20does&text=How%20much%3A%20Ideally%2C%20at%20least,per%20week%20of%20moderate%20activity."
+      target="_blank">Heart Exercises</a>
+      <a href="https://www.webmd.com/fitness-exercise/top-exercises-belly-fat"
+      target="_blank">Tummy Exercises</a>
+      <a href="https://www.healthline.com/health/fitness-exercise/at-home-workouts"
+      target="_blank">Home Exercises</a>
+      <a href="https://www.goodhousekeeping.com/health/fitness/a37050658/pregnancy-exercises/"
+      target="_blank">Pregnancy Exercises</a>
+      <a href="https://www.healthline.com/health/upper-body-workout-for-women"
+      target="_blank">Upper-body Exercises</a>
+  </div>
+  <div class="column-all">
+    <h3>Mental Health</h3>
+    <a href="https://www.sabinorecovery.com/how-to-recover-from-depression/">Recovery from Depression</a>
+              <a href="https://www.sabinorecovery.com/sexual-abuse-trauma-treatment-center/"
+              target="_blank">Recovery from Sexual Abuse</a>
+              <a href="https://www.sabinorecovery.com/best-anxiety-treatment-center/"
+              target="_blank">Recovery from Anxiety</a>
+              <a href="https://www.sabinorecovery.com/sexual-abuse-trauma-treatment-center/"
+              target="_blank">Recovery from Addiction</a> 
+              <a href="https://www.sabinorecovery.com/best-anxiety-treatment-center/"
+              target="_blank">Recovery from PTSD</a>
+            
+
+  </div>
+  <div class="column-all">
+    <h3>Maternal Health</h3>
+    <a href="https://health.gov/myhealthfinder/pregnancy/nutrition-and-physical-activity/eat-healthy-during-pregnancy-quick-tips#:~:text=Proteins%20%E2%80%94%20like%20lean%20meats%20and,like%20seafood%2C%20avocado%2C%20and%20nuts">Pregnancy Foods</a>
+    <a href="https://health.gov/myhealthfinder/pregnancy/doctor-and-midwife-visits/have-healthy-pregnancy"
+    target="_blank">Healthy Pregnancy</a>
+    <a href="https://www.webmd.com/baby/folic-acid-and-pregnancy"
+    target="_blank">Folic acid & Pregnancy</a>
+    <a href="https://www.healthline.com/nutrition/11-foods-to-avoid-during-pregnancy"
+    target="_blank">Do not take</a> 
+    <a href="https://kidshealth.org/en/parents/guide-parents.html"
+    target="_blank">Newborn Guide</a>
+  
+  </div>
+  
+</div>
+  <div class="overlay"></div> <!-- Black overlay -->
   <div class="container">
     <div class="nav">
       <div>
-       <h3><img  width= "30" height="30" src="/static/favicon.ico" alt="Healthylogo" />Healthy</h3> 
+	      <a href="/home"><h3><img  width= "30" height="30" src="/static/favicon.ico" alt="Healthylogo" />Healthy</h3></a>
       </div>
       <div class="navss">
       
         <a href="#">Home</a>
-        <a href="/category">Category</a>
-        <a href="#" class="n-use">Contact Us</a>
+        <a href="#" id="category-link">Category</a>
+        <a href="/" class="n-use">About Us</a>
         <a href="/register" class="signup">Sign Up</a>
         <a href="/login" class="login">Login</a>
        
@@ -35,6 +92,11 @@
    
     
   </div>
+  <div class="r-msg">
+  </div>
+  <div class="grid-result">
+   </div>
+  <button id="seeMoreBtn" onclick="seeMore()">See More</button>
   <div class="new_cnt">
     <h3>What is Healthy about?</h3>
     <iframe class="i-frame" width="70%" height="415" src="https://www.youtube.com/embed/tuNxuoP2lEM" title="YouTube video embed" frameborder="0" allowfullscreen></iframe>
@@ -46,44 +108,45 @@
 <div class="for_grid">
 
 <div class=" al first">
-    <a href="">
+    <a href="https://www.verywellhealth.com/health-benefits-tomatoes-7644531" target='_blank'>
     <img src="/static/tomato.jpg" alt="">
     <div class="txt"> Six Benefits of Eating Tomatoes</div>
     </a>
 </div>
 <div class="al seconod">
-    <a href="">
+    <a href="https://www.hsph.harvard.edu/nutritionsource/disease-prevention/cardiovascular-disease/preventing-cvd/" target='_blank'>
     <img src="/static/heart_disease.jpg" alt="">
     <div class="txt">Avoiding Hearth Disease</div>
     </a>
 </div>
 <div class="al third">
-    <a href="">
+    <a href="https://tcc.sg/cancer-prevention/" target='_blank'>
     <img src="/static/7-habit.jpg" alt="">
     <div class="txt">7 Habits to avoid Cancer</div>
     </a>
 </div>
 <div class="al fourth">
-  <a href="">
+  <a href="https://www.healthline.com/nutrition/why-high-fructose-corn-syrup-is-bad" target='_blank'>
     <img src="/static/cerub.jpg" alt="">
-    <div class="txt">Why putting cyrub into  a dry gin  will cause serious Health issue</div>
+    <div class="txt">6 Reasons Why High-Fructose Corn Syrup Is Bad for You</div>
   </a>
 </div>
 <div class="al fifth">
-    <a href="">
+    <a href=" https://www.eehealth.org/blog/2024/02/when-to-see-your-doctor/" target='_blank'>
     <img src="/static/see_doc.jpg" alt="">
-    <div class="txt"> See your Doctor every 6 weeks</div>
+    <div class="txt"> 6 signs it’s time to see your doctor</div>
     </a>
 </div>
 <div class="al sixth">
-    <a href="">
+    <a href="https://www.vinmec.com/vi/news/health-news/nutrition/top-14-health-benefits-of-broccoli/?link_type=related_posts" target='_blank'>
     <img src="/static/brocoli.jpg" alt="">
-    <div class="txt"> Effects of broccoli  on the central nervous</div>
+    <div class="txt"> Top 14 health benefits of broccoli</div>
     </a>
 </div>
 </div>
 
   </div>
+  <script src="/static/js/script.js"></script>
 </body>
 </html>
 
