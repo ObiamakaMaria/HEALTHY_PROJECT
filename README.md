@@ -24,6 +24,9 @@ Obiamaka Maria Aghadiuno: https://www.linkedin.com/in/obiamaka-aghadiuno?utm_sou
 Iyanuloluwa Emmanuel Adigun: https://www.linkedin.com/in/adigun-iyanuloluwa-3270421b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
 
 
+Tech Stack:
+Frontend was handled using core web technologies like HTML, CSS, JavaScript in addition to that, google fonts and Remix Icons were applied to deliver a visually appealing, responsive, and user-friendly interface. While Iyanuloluwa Emmanuel Adigun worked on the backend using Python, Flask, SQL and SQLAlchemy.
+
 
 
 Contribution
