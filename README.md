@@ -12,6 +12,8 @@ This website is the result of a collaborative effort by Obiamaka Maria Aghadiuno
 Healthy Website contains two powerful API, the Google API and the Youtube API which provides the users acess to the latest and most reliable health information articles in realtime and also ensures a rich multimedia experience by bringing the best and highly ranked health education videos respectively.
 The reson for this being that the timeline given to build healthy was a short one and we couldnt come up with the actual resources and videos for the various contents that
  healthy provides.
+ ![Features](https://github.com/ObiamakaMaria/HEALTHY_PROJECT/assets/125522368/cf50067c-9dd2-4a8d-a8ee-bc60e17e19a9)
+
 
 
 Links:
