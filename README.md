@@ -38,4 +38,4 @@ Commit your changes: git commit -m 'Add your feature'.
 Push to the branch: git push origin feature/your-feature.
 Open a pull request.
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License https://github.com/ObiamakaMaria/HEALTHY_PROJECT/blob/main/LICENSE
