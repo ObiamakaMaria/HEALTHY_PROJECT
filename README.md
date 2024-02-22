@@ -2,6 +2,8 @@
 HEALTHY
 
 Introduction
+![Landingpage](https://github.com/ObiamakaMaria/HEALTHY_PROJECT/assets/125522368/aa334ac6-c759-4572-87e6-724fb64bab7b)
+
 
 Welcome to the Healthy Website a comprehensive platform dedicated to health education and awareness. 
 This website is the result of a collaborative effort by Obiamaka Maria Aghadiuno and Iyanuloluwa Emmanuel Adigun as a portfolio Project to wrap up the Foundations phase of the  ALX Software Engineering Program.
