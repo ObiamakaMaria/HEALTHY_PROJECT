@@ -33,8 +33,11 @@ Obiamaka Maria Aghadiuno: https://www.linkedin.com/in/obiamaka-aghadiuno?utm_sou
 Iyanuloluwa Emmanuel Adigun: https://www.linkedin.com/in/adigun-iyanuloluwa-3270421b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
 
 ## Web Technologies 
+![Webstack](https://github.com/ObiamakaMaria/HEALTHY_PROJECT/assets/125522368/3c59aeb0-26b6-4373-804c-18133a690fd6)
 
 - Front end: HTML, CSS, JavaScript, Remix Icons, Google fonts.
+
+  
 - Backend: Python, Flask, SQL, SQLAlchemy
 
 ## Usage 
