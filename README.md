@@ -34,13 +34,13 @@ Iyanuloluwa Emmanuel Adigun: https://www.linkedin.com/in/adigun-iyanuloluwa-3270
 
 ## Usage 
 
-- Exploring Health Articles
-Navigate through  recommended Health Articles on Disease, Fitness, Maternal Health and Mental Health:
-Click on the navigation links or use the search bar to find articles related to your interests.
+- Exploring Health Articles:
+  Navigate through  recommended Health Articles on Disease conditions , Fitness, Maternal Health and Mental Health
+  Click on the navigation links or use the search bar to find articles related to your interests.
 
 
-Watch Health Education Videos:
-- Discover valuable health insights through YouTube videos. Explore different categories and access 
+- Watch Health Education Videos:
+Discover valuable health insights through YouTube videos. Explore different categories and access 
 highly ranked videos to enhance your health knowledge.
 
 
