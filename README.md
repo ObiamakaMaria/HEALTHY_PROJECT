@@ -25,9 +25,9 @@ The reson for this being that the timeline given to build healthy was a short on
 
 ## Deployed Site : Visit http://54.89.116.235/ in your web browser to explore the Healthy Website.
 
-Project Blog Article: https://medium.com/@obiamaka0101/the-journey-of-developing-healthy-website-acdca868dc9b
+- Project Blog Article: https://medium.com/@obiamaka0101/the-journey-of-developing-healthy-website-acdca868dc9b
 
-Author's LinkedIn - 
+- Author's LinkedIn - 
 Obiamaka Maria Aghadiuno: https://www.linkedin.com/in/obiamaka-aghadiuno?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
 
 Iyanuloluwa Emmanuel Adigun: https://www.linkedin.com/in/adigun-iyanuloluwa-3270421b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
@@ -54,5 +54,7 @@ We welcome contributions! If you'd like to contribute to the Healthy Website, pl
 - Commit your changes: git commit -m 'Add your feature'.
 - Push to the branch: git push origin feature/your-feature.
 - Open a pull request.
+
+  ## LICENSE
 
 This project is licensed under the MIT License https://github.com/ObiamakaMaria/HEALTHY_PROJECT/blob/main/LICENSE
