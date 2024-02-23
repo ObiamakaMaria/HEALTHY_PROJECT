@@ -37,7 +37,9 @@ Iyanuloluwa Emmanuel Adigun: https://www.linkedin.com/in/adigun-iyanuloluwa-3270
 
 - Front end: HTML, CSS, JavaScript, Remix Icons, Google fonts.
 
-  
+
+![webstack 2](https://github.com/ObiamakaMaria/HEALTHY_PROJECT/assets/125522368/6c255756-8296-4241-b248-17dbaef39599)
+
 - Backend: Python, Flask, SQL, SQLAlchemy
 
 ## Usage 
