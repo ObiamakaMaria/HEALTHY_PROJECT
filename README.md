@@ -5,13 +5,13 @@
 ![Landingpage](https://github.com/ObiamakaMaria/HEALTHY_PROJECT/assets/125522368/aa334ac6-c759-4572-87e6-724fb64bab7b)
 
 
-Welcome to the Healthy Website a comprehensive platform dedicated to health education and awareness. 
+Welcome to the Healthy Website , a comprehensive platform dedicated to health education and awareness. 
 This website is the result of a collaborative effort by Obiamaka Maria Aghadiuno and Iyanuloluwa Emmanuel Adigun as a portfolio Project to wrap up the Foundations phase of the  ALX Software Engineering Program.
  Our goal is to spread the life-changing gospel of health education to communities, empowering individuals to make informed choices for their well-being.
  
 ## Features 
 
-Healthy Website contains two powerful API, the Google API and the Youtube API which provides the users acess to the latest and most reliable health information articles in realtime and also ensures a rich multimedia experience by bringing the best and highly ranked health education videos respectively.
+Healthy Website contains two powerful API, the Google API and the Youtube API which provides the users acess to the latest and most reliable health information articles in realtime and also ensures a rich multimedia experience by bringing the best and highly ranked health education videos through the Youtube serach engine respectively.
 The reson for this being that the timeline given to build healthy was a short one and we couldnt come up with the actual resources and videos for the various contents that
  healthy provides.
  ![Features](https://github.com/ObiamakaMaria/HEALTHY_PROJECT/assets/125522368/cf50067c-9dd2-4a8d-a8ee-bc60e17e19a9)
@@ -25,7 +25,9 @@ The reson for this being that the timeline given to build healthy was a short on
 
 ## Deployed Site : Visit http://54.89.116.235/ in your web browser to explore the Healthy Website.
 
-- Project Blog Article: https://medium.com/@obiamaka0101/the-journey-of-developing-healthy-website-acdca868dc9b
+- Project Blog Article:
+  https://medium.com/@obiamaka0101/the-journey-of-developing-healthy-website-acdca868dc9b
+  https://www.linkedin.com/posts/adigun-iyanuloluwa-3270421b7_this-post-is-about-a-simple-web-application-activity-7166135046674735104-mOnO?utm_source=share&utm_medium=member_ios
 
 - Author's LinkedIn - 
 Obiamaka Maria Aghadiuno: https://www.linkedin.com/in/obiamaka-aghadiuno?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
@@ -45,7 +47,7 @@ Iyanuloluwa Emmanuel Adigun: https://www.linkedin.com/in/adigun-iyanuloluwa-3270
 ## Usage 
 
 - Exploring Health Articles:
-  Navigate through  recommended Health Articles on Disease conditions , Fitness, Maternal Health and Mental Health
+  Navigate through  recommended Health Articles on Disease conditions , Fitness, Maternal Health and Mental Health.
   Click on the navigation links or use the search bar to find articles related to your interests.
 
 
