@@ -23,7 +23,7 @@ The reson for this being that the timeline given to build healthy was a short on
 
 ## Links:
 
-## Deployed Site : http://54.89.116.235/
+## Deployed Site : Visit http://54.89.116.235/ in your web browser to explore the Healthy Website.
 
 Project Blog Article: https://medium.com/@obiamaka0101/the-journey-of-developing-healthy-website-acdca868dc9b
 
@@ -32,16 +32,27 @@ Obiamaka Maria Aghadiuno: https://www.linkedin.com/in/obiamaka-aghadiuno?utm_sou
 
 Iyanuloluwa Emmanuel Adigun: https://www.linkedin.com/in/adigun-iyanuloluwa-3270421b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
 
+## Usage 
+
+- Exploring Health Articles
+Navigate through  recommended Health Articles on Disease, Fitness, Maternal Health and Mental Health:
+Click on the navigation links or use the search bar to find articles related to your interests.
+
+
+Watch Health Education Videos:
+- Discover valuable health insights through YouTube videos. Explore different categories and access 
+highly ranked videos to enhance your health knowledge.
+
 
 
 
 ## Contribution
 We welcome contributions! If you'd like to contribute to the Healthy Website, please follow these guidelines:
 
-Fork the repository.
-Create a new branch: git checkout -b feature/your-feature.
-Commit your changes: git commit -m 'Add your feature'.
-Push to the branch: git push origin feature/your-feature.
-Open a pull request.
+- Fork the repository.
+- Create a new branch: git checkout -b feature/your-feature.
+- Commit your changes: git commit -m 'Add your feature'.
+- Push to the branch: git push origin feature/your-feature.
+- Open a pull request.
 
 This project is licensed under the MIT License https://github.com/ObiamakaMaria/HEALTHY_PROJECT/blob/main/LICENSE
