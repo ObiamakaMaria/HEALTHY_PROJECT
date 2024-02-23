@@ -66,7 +66,6 @@ We welcome contributions! If you'd like to contribute to the Healthy Website, pl
 - Commit your changes: git commit -m 'Add your feature'.
 - Push to the branch: git push origin feature/your-feature.
 - Open a pull request.
-
-  ## LICENSE
+## LICENSE
 
 This project is licensed under the MIT License https://github.com/ObiamakaMaria/HEALTHY_PROJECT/blob/main/LICENSE
