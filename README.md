@@ -1,7 +1,7 @@
 
-#HEALTHY
+# HEALTHY
 
-##Introduction
+## Introduction
 ![Landingpage](https://github.com/ObiamakaMaria/HEALTHY_PROJECT/assets/125522368/aa334ac6-c759-4572-87e6-724fb64bab7b)
 
 
@@ -19,9 +19,9 @@ The reson for this being that the timeline given to build healthy was a short on
 
 
 
-##Links:
+## Links:
 
-##Deployed Site : http://54.89.116.235/
+## Deployed Site : http://54.89.116.235/
 
 Project Blog Article: https://medium.com/@obiamaka0101/the-journey-of-developing-healthy-website-acdca868dc9b
 
@@ -33,7 +33,7 @@ Iyanuloluwa Emmanuel Adigun: https://www.linkedin.com/in/adigun-iyanuloluwa-3270
 
 
 
-##Contribution
+## Contribution
 We welcome contributions! If you'd like to contribute to the Healthy Website, please follow these guidelines:
 
 Fork the repository.
