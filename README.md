@@ -1,5 +1,4 @@
 
-=======
 # HEALTHY
 
 ## Introduction
@@ -38,13 +37,11 @@ Iyanuloluwa Emmanuel Adigun: https://www.linkedin.com/in/adigun-iyanuloluwa-3270
 ## Web Technologies 
 ![Webstack](https://github.com/ObiamakaMaria/HEALTHY_PROJECT/assets/125522368/3c59aeb0-26b6-4373-804c-18133a690fd6)
 
-<<<<<<< HEAD
 Tech Stack:
 Frontend was handled using core web technologies like HTML, CSS, JavaScript in addition to that, google fonts and Remix Icons were applied to deliver a visually appealing, responsive, and user-friendly interface. While Iyanuloluwa Emmanuel Adigun worked on the backend using Python, Flask, SQL and SQLAlchemy.
 
-=======
+
 - Front end: HTML, CSS, JavaScript, Remix Icons, Google fonts.
->>>>>>> 650d532adb8bf460b8e3e6c882fcd0dc872c032f
 
 
 ![webstack 2](https://github.com/ObiamakaMaria/HEALTHY_PROJECT/assets/125522368/6c255756-8296-4241-b248-17dbaef39599)
@@ -76,4 +73,3 @@ We welcome contributions! If you'd like to contribute to the Healthy Website, pl
 ## LICENSE
 
 This project is licensed under the MIT License https://github.com/ObiamakaMaria/HEALTHY_PROJECT/blob/main/LICENSE
->>>>>>> 6ef720ff83af66dc7604587108a2f2db6e5d6896
