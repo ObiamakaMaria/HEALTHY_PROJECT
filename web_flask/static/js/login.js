@@ -17,7 +17,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     .then(response => {
         if (response.ok) {
             // Redirect to another page or perform other actions upon successful login
-            window.location.href = '/subscribe';
+            window.location.href = '/home';
         } else {
             // Handle error responses
             return response.json().then(data => {

@@ -4,7 +4,7 @@ const overlay = document.querySelector('.overlay');
 const container = document.querySelector('.grid-result');
 const seeMore = document.querySelector('#seeMoreBtn');
 const rMsg = document.querySelector('.r-msg');
-const inputs =  document.querySelector('.search-box');
+const inputs =  document.querySelector('#s-box');
 function toggleBodyScrolling() {
   document.body.style.overflow = (container2.style.display === 'grid') ? 'hidden' : 'auto';
 }
@@ -21,7 +21,7 @@ overlay.addEventListener('click', function(){
 
 var pageToken;
 var tmp;
-const btn = document.querySelector('.search-button')
+const btn = document.querySelector('#s-button')
 
 btn.addEventListener('click', function(){
 container.innerHTML = '';

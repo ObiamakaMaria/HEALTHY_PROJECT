@@ -139,7 +139,7 @@ body {
     grid-template-columns: repeat(3, 2fr); /* three columns */
     grid-gap: 0; /* set spacing between grid items */
     width: 90%;
-    margin-top: 60px;
+    margin-top: 50px;
    
     
   }
@@ -191,7 +191,56 @@ body {
   .nav a:hover {
     color: #333;
   }
-  
+ /* User profile stule */
+ .profile {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-right: 20px;
+
+    position: relative;
+  }
+ .profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* To make it circular */
+    margin-right: 10px;
+    background: white;
+  }
+  .profile .user-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .dropdown {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top:30px;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    z-index: 1;
+    left: 55%;
+    top: 80%;
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .dropdown-content a {
+    color: red;
+    
+    padding:10px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .user-info span {
+	  font-size: 14px;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
   /* Centered area */
   .a-center {
     text-align: center;
@@ -228,7 +277,7 @@ body {
     border: 2px solid #ccc;
     border-radius: 12px;
     height: 20px; /* adjust as needed */
-    background-color: transparent;
+    background-color: black;
     color: white;
   }
  
@@ -267,12 +316,47 @@ body {
 
   .al  a:hover {
      color:blue;
- } 
+  }
+.to-do {
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* three columns */
+    grid-gap: 0;
+    background: #F1FAFE;
+    padding:30px;
+    height:330px;
+    padding-left: 50px;
+
+  }
+.f-img img {
+        width: 80%;
+        height: 300px;
+        border-radius:12px;
+    }
   /* Media queries for responsiveness */
-  
+.n-lst li{
+margin-top:15px;
+}
+ .author_link a:hover {
+	background: blue;
+	color: white;
+
+}
+
+.g-search {
+
+   width: 60%;
+   height: 80%;
+   margin-top: 15px;
+   }
+
   @media (max-width: 790px) {
 
+.to-do {
+    width: 80%;
 
+  }
     .container {
         max-width: 100%; /* adjust as needed */
           padding-left: 30px;
@@ -309,12 +393,54 @@ body {
       .h-p {
         font-size: 1em;
       }
+       .user-info span {
+	      font-size: 0.6em;
+	           }
   }
   @media (max-width: 617px) {
-    .nav a {
+
+.f-td h2 {
+
+  font-size:14px;
+}
+.g-search {
+
+   width: 80%;
+   }
+
+.to-do {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* three columns */
+    grid-gap: 0;
+    background: #F1FAFE;
+    padding:40px;
+    height:300px;
+    padding-left: 35px;
+    margin-left: 50px;
+
+  }
+
+.profile {
+    margin-right: 0px;
+
+  } 
+.f-img img {
+        width: 90%;
+        height: 260px;
+        border-radius:12px;
+    }
+.n-lst li{
+margin-top:3px;
+font-size: 14px;
+}
+.f-td h2 {
+ font-size: 1.2em;
+ }
+.nav a {
         text-decoration: none;
         margin-right: 10px;
-        color: white;
       }
 
     .search-container {
@@ -332,11 +458,48 @@ body {
       font-size: 0.8em;
      
     }
-   
+  .for_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-gap: 0; /* set spacing between grid items */
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 25px;
+
+
+  } 
+ .al img {
+    width: 150px;
+    border-radius: 12px;
+    height: 225px;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
   }
- 
+.author_link {
+        width: 90%;
+        font-size: 16px;
+} 
+  }
+
+.author_link {
+
+	font-size: 16px;
+}
   
   @media (max-width: 532px) {
+
+ .profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; /* To make it circular */
+    margin-right: 10px;
+    background: white;
+  }
+  .profile .user-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+  }
+
     .h1-text {
         font-size: 2.7em;
       }
