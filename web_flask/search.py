@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+
 """ This module creates a route for searching on YouTube through API """
 
 from flask import Blueprint, request, jsonify

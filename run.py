@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """ 
-This is the module that runt the flask app
+This is the module that run the flask app
 """
 
 from web_flask import create_app

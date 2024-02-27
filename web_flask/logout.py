@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+""" This is the module that handles user logout request """
+
 from flask import Blueprint, request, jsonify, session, redirect, url_for
 
 # Define the blueprint

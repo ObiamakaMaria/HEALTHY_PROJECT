@@ -14,7 +14,6 @@ fetch('/info')
   })
   .then(data => {
     // Print the result
-    console.log('User Info:', data);
     spanEmail.innerText = data.email;
     spanName.innerText= data.name;
   })

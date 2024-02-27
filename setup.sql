@@ -1,7 +1,8 @@
 -- prepares a MySQL server for the project
 
 CREATE DATABASE IF NOT EXISTS HEALTHY;
-CREATE USER IF NOT EXISTS 'memmalino'@'localhost' IDENTIFIED BY 'password##';
+CREATE USER IF NOT EXISTS 'memmalino'@'localhost' IDENTIFIED BY '${env:DB_PASSWORD}';
 GRANT ALL PRIVILEGES ON `HEALTHY`.* TO 'memmalino'@'localhost';
 GRANT SELECT ON `performance_schema`.* TO 'memmalino'@'localhost';
 FLUSH PRIVILEGES;
+

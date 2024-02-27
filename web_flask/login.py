@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+""" This is the module for handling user login request"""
+
 from flask import Blueprint, render_template, request, jsonify, send_from_directory, session
 from models import storage
 from models.user import User
@@ -31,8 +33,6 @@ def login():
         if user_data[key].username.lower() == username.lower():
             if check_password_hash(user_data[key].password_hash, password):
                session['user_id'] = user_data[key].id
-               print("Session:", session)
-               print("Request Endpoint:", request.endpoint)
                return jsonify({'success':user_data[key].id}), 200
     response =  {
             'message' : "Password or username incorrect"
