@@ -48,8 +48,12 @@ Frontend was handled using core web technologies like HTML, CSS, JavaScript in a
 
 - Backend: Python, Flask, SQL, SQLAlchemy
 
-## Usage 
+## Usage for developers/Engineers
+- Firstly: execute the sql_bash.sh file but you must have set an environment variable with the name DB_PASSWORD, because the sql_bash.sh script will be executing the setup.sql file using the DB_PASSWORD as password for the user.. This is done to prevent hardcoding of sensitive information.
 
+- The required dependencies,  python libraries and frameworks are listed in the requirements.txt
+
+## Usage for users
 - Exploring Health Articles:
   Navigate through  recommended Health Articles on Disease conditions , Fitness, Maternal Health and Mental Health.
   Click on the navigation links or use the search bar to find articles related to your interests.
