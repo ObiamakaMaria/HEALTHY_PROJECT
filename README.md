@@ -50,6 +50,8 @@ Frontend was handled using core web technologies like HTML, CSS, JavaScript in a
 
 ## Usage for developers/Engineers
 - Firstly: execute the sql_bash.sh file but you must have set an environment variable with the name DB_PASSWORD, because the sql_bash.sh script will be executing the setup.sql file using the DB_PASSWORD as password for the user.. This is done to prevent hardcoding of sensitive information.
+- Before Running the run.py file which is the main entry point for the application you must have set the followin environment variables: DB_USER=any DB_PASSWORD=any DB_HOST=localhost DB_NAME=HEALTHY DB_YTB_API=AIzaSyB5lc-HbdcwEiDpaeQoPQy7U8hnj1gXFdw
+- The application interact with Youtube API to fetch video for the website, The DB_YTB_API will have the API generated from youtube as it's value.
 
 - The required dependencies,  python libraries and frameworks are listed in the requirements.txt
 
